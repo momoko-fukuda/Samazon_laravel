@@ -46,6 +46,7 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+    // 入力チェック
     protected function validator(array $data)
     {
         return Validator::make($data, [
